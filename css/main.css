@@ -1,13 +1,14 @@
 * GLOBAL */
 
 * {
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 html {
-  font-family: 'Roboto', sans-serif;
   color: #fff;
   font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 body {
@@ -23,7 +24,13 @@ body {
 .left-profile-area {
   background-color: #3ba39a;
   width: 50%;
-  border-radius: 10px;
+  padding-bottom: 50px;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .left-profile-area .side-header {
@@ -79,20 +86,52 @@ body {
 }
 
 .left-profile-area
-.img{}
+.img{
+  overflow: hidden;
+}
+
 
 .left-profile-area
 h1 {
   font-size: 3.5rem;
   font-weight: 300;
   text-align: center;
+  padding: 50px 0;
 }
 
 .content-area
 .left-bottom {
   background-color: #fdcc8a;
-  width: 65%;
+  width: 120%;
+  padding: 50px ;
+  color: darkslategrey;
+  font-size: 1.3rem;
 }
+
+.bottom-area {
+  display: flex;
+}
+
+.left-bottom
+.user-promo {
+  color: red;
+  padding-left: 15px;
+}
+
+.left-bottom
+h2 {
+  font-size: 2rem;
+  color: darkslategrey;
+  font-weight: 900;
+}
+
+
+
+.left-bottom
+.discover {
+  background-color: #fddfb9;
+}
+
 
 
 
