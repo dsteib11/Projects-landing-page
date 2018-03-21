@@ -1,0 +1,67 @@
+* GLOBAL */
+
+* {
+  box-sizing:border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+body {
+  background: #0a2536;
+}
+
+.content-area {
+  background-color: #84bdc8;
+  margin: 100px 50px;
+  border-radius: 10px;
+}
+
+.left-profile-area .side-header {
+  padding:75px 25px; 
+}
+
+.left-profile-area .side-header a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.left-profile-area 
+.side-header .news {
+  padding-bottom: 25px;
+}
+
+.left-profile-area 
+.side-header a .img {
+  font-size: 2.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+.left-profile-area 
+.side-header 
+.portfolios 
+{
+  padding: 10px 0;
+}
+
+.left-profile-area 
+.side-header 
+.members
+.contacts
+{
+  padding: 10px 0;
+}
+
+.left-profile-area 
+.side-header 
+.contacts 
+{
+  padding: 10px 0;
+}
+
+
