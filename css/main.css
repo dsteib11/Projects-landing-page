@@ -7,6 +7,7 @@
 html {
   font-family: 'Roboto', sans-serif;
   color: #fff;
+  font-size: 18px;
 }
 
 body {
@@ -19,7 +20,14 @@ body {
   border-radius: 10px;
 }
 
+.left-profile-area {
+  background-color: #3ba39a;
+  width: 50%;
+  border-radius: 10px;
+}
+
 .left-profile-area .side-header {
+  width: 25%;
   padding:75px 25px; 
 }
 
@@ -35,18 +43,24 @@ body {
 }
 
 .left-profile-area 
-.side-header a .img {
+.side-header .img {
   font-size: 2.3rem;
   font-weight: 700;
   text-transform: uppercase;
   padding: 20px 0;
 }
 
+.dash  {
+  padding-top: 140px;
+  position: absolute;
+  font-size: 1.5rem;
+}
+
 .left-profile-area 
 .side-header 
 .portfolios 
 {
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 .left-profile-area 
@@ -54,14 +68,32 @@ body {
 .members
 .contacts
 {
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 .left-profile-area 
 .side-header 
 .contacts 
 {
-  padding: 10px 0;
+  padding: 20px 0;
 }
+
+.left-profile-area
+.img{}
+
+.left-profile-area
+h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.content-area
+.left-bottom {
+  background-color: #fdcc8a;
+  width: 65%;
+}
+
+
 
 
