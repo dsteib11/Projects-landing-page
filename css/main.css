@@ -4,10 +4,13 @@
   box-sizing: border-box;
 }
 
+.contianer {
+  width: 80%;
+  margin: auto;
+}
 html {
   color: #fff;
   font-size: 18px;
-  font-family: 'Roboto', sans-serif;
 
 }
 
@@ -16,15 +19,15 @@ body {
 }
 
 .content-area {
-  background-color: #84bdc8;
-  margin: 100px 50px;
+  background-color: #bee0dd;
+  margin: 74px 34px;
   border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .left-profile-area {
   background-color: #3ba39a;
   width: 50%;
-  padding-bottom: 50px;
   -webkit-border-top-left-radius: 10px;
   -webkit-border-bottom-left-radius: 10px;
   -moz-border-radius-topleft: 10px;
@@ -33,104 +36,62 @@ body {
   border-bottom-left-radius: 10px;
 }
 
-.left-profile-area .side-header {
-  width: 25%;
-  padding:75px 25px; 
-}
-
-.left-profile-area .side-header a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 1rem;
-}
-
-.left-profile-area 
-.side-header .news {
-  padding-bottom: 25px;
-}
-
-.left-profile-area 
-.side-header .img {
-  font-size: 2.3rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  padding: 20px 0;
-}
-
-.dash  {
-  padding-top: 140px;
+.left-profile-area
+.dash {
   position: absolute;
-  font-size: 1.5rem;
+  margin-top: 125px;
+  font-size: 2.3rem;
 }
-
-.left-profile-area 
-.side-header 
-.portfolios 
-{
-  padding: 20px 0;
-}
-
-.left-profile-area 
-.side-header 
-.members
-.contacts
-{
-  padding: 20px 0;
-}
-
-.left-profile-area 
-.side-header 
-.contacts 
-{
-  padding: 20px 0;
+.left-profile-area
+.user-img
+.img {
+  padding: 0 400px;
 }
 
 .left-profile-area
-.img{
-  overflow: hidden;
+.nav-bar-col {
+  padding: 0 25px;
 }
 
+.left-profile-area
+.nav-bar-col
+ul {
+  position: absolute;
+  padding: 80px 0;
+}
 
 .left-profile-area
-h1 {
+.nav-bar-col
+ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;  
+}
+
+.left-profile-area
+.nav-bar-col
+li {
+  padding: 10px 0 10px 0;
+  margin-top: 5px;
+}
+
+.title h1 {
   font-size: 3.5rem;
-  font-weight: 300;
   text-align: center;
-  padding: 50px 0;
+  padding-top: 50px;
+  text-transform: uppercase;
 }
-
 .content-area
+.left-profile-area
 .left-bottom {
-  background-color: #fdcc8a;
-  width: 120%;
-  padding: 50px ;
-  color: darkslategrey;
-  font-size: 1.3rem;
-}
-
-.bottom-area {
-  display: flex;
-}
-
-.left-bottom
-.user-promo {
-  color: red;
-  padding-left: 15px;
-}
-
-.left-bottom
-h2 {
-  font-size: 2rem;
-  color: darkslategrey;
-  font-weight: 900;
+  padding: 70px 0;
 }
 
 
 
-.left-bottom
-.discover {
-  background-color: #fddfb9;
-}
+
+
+
 
 
 
