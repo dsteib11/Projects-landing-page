@@ -28,6 +28,7 @@ body {
 .left-profile-area {
   background-color: #3ba39a;
   width: 50%;
+  padding: 0 25px;
   -webkit-border-top-left-radius: 10px;
   -webkit-border-bottom-left-radius: 10px;
   -moz-border-radius-topleft: 10px;
@@ -36,12 +37,12 @@ body {
   border-bottom-left-radius: 10px;
 }
 
-.left-profile-area
 .dash {
   position: absolute;
   margin-top: 125px;
   font-size: 2.3rem;
 }
+
 .left-profile-area
 .user-img
 .img {
