@@ -18,7 +18,7 @@ body {
   background: #0a2536;
 }
 
-.content-area {
+#content-area {
   background-color: #bee0dd;
   margin: 74px 34px;
   border-radius: 10px;
@@ -42,6 +42,130 @@ body {
   margin-top: 125px;
   font-size: 2.3rem;
 }
+
+#content-area
+.bottom-area {
+  position: absolute;
+  margin-top: 500px;
+  width: 60%;
+  padding: 5px;
+  background-color: #fdcc8a;
+  color: #2c473e;
+ }
+
+ #content-area
+.next-arrow {
+  position: absolute;
+  margin-left: 595px;
+  margin-top: 500px;
+  background-color: rgba(253, 223, 185, .7);
+  height: 120px;
+  width: 75px;
+}
+
+#content-area
+.next-arrow
+.next {
+  text-align: center;
+  color: grey;
+  margin-top: 50%;
+}
+
+ /* LEFT BOTTOM ID BEGINS */
+ #content-area
+.left-bottom
+.bottom-area
+.user-promo
+ h3 {
+  font-size: 3rem;
+  font-weight: 800;
+  padding: 0 0 0 25px;
+}
+
+
+#content-area
+.left-bottom
+.bottom-area
+.user-promo {
+  display: flex;
+  padding: 25px;
+}
+
+#content-area
+.left-bottom
+.bottom-area
+.user-promo
+.sub-title {
+  padding: 5px;
+}
+
+#content-area
+.left-bottom
+.bottom-area
+.user-promo
+.sub-title
+ h4
+ {
+   text-transform: uppercase;
+   margin-bottom: 2px;
+   font-weight: 700;
+ }
+
+ #content-area
+.left-bottom
+.bottom-area
+.user-promo
+.sub-title
+ p {
+   text-transform: capitalize;
+   font-weight: 500;
+ }
+
+#content-area
+.left-bottom
+.bottom-area
+.user-promo
+.arrows {
+  display: flex;
+  padding: 10px;
+  margin-left: 80px;
+  font-size: 2.5rem;
+}
+
+#content-area
+.left-bottom
+.bottom-area
+.user-promo
+.arrow-left {
+  padding-right: 10px;
+}
+
+#content-area
+.left-bottom
+.bottom-area
+.user-promo
+.arrow-right {
+  padding-right: 10px;
+}
+
+
+#content-area
+.left-bottom
+.bottom-area
+.user-promo
+.discover {
+  margin: 20px 0 0 200px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+
+
+
+
+
+ /* PROFILE AREA BEGINS */
 
 .left-profile-area
 .user-img
@@ -72,20 +196,21 @@ ul li a {
 .left-profile-area
 .nav-bar-col
 li {
-  padding: 10px 0 10px 0;
+  padding: 5px 0 5px 0;
   margin-top: 5px;
+}
+
+.left-profile-area
+.nav-bar-col
+.images {
+  font-size: 3rem;
 }
 
 .title h1 {
   font-size: 3.5rem;
   text-align: center;
-  padding-top: 50px;
+  padding: 100px 0 225px 0;
   text-transform: uppercase;
-}
-.content-area
-.left-profile-area
-.left-bottom {
-  padding: 70px 0;
 }
 
 
